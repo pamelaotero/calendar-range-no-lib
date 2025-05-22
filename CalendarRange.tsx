@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import styles from "./Calendar.module.css";
+import styles from "./CalendarRange.module.css";
 
-const Calendar: React.FC = () => {
+const CalendarRange: React.FC = () => {
   const today = new Date();
   const [currentYear, setCurrentYear] = useState(today.getFullYear());
   const [currentMonth, setCurrentMonth] = useState(today.getMonth());
@@ -256,4 +256,4 @@ const Calendar: React.FC = () => {
   );
 };
 
-export default Calendar;
+export default CalendarRange;
